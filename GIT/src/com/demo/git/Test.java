@@ -1,8 +1,8 @@
 package com.demo.git;
 
 public class Test {
-	public int add() {
-		System.out.println(5+7);
-		return (5+7);
+	public int add(int num1, int num2) {
+		System.out.println(num1+num2);
+		return num1+num2;
 	}
 }
